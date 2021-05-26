@@ -1,4 +1,6 @@
 // Global styling for this template
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
 body,
 html {
 	width: 100%;
@@ -14,7 +16,7 @@ html {
 hr.divider {
 	max-width: 3.25rem;
 	border-width: 0.2rem;
-	border-color: $primary;
+	border-color: $secondary;
 }
 
 hr.light {
